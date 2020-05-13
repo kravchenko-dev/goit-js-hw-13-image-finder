@@ -41,7 +41,7 @@ function renderMoreImages() {
         gallery.insertAdjacentHTML('beforeend', adding);
         setTimeout(() => {
             window.scrollBy({
-                top: document.documentElement.clientHeight,
+                top: document.documentElement.clientHeight - 225,
                 behavior: 'smooth'
             });
         }, 500);
