@@ -22,6 +22,7 @@ function moreBtnCreate() {
 }
 
 function renderImages(event) {
+    page = 1;
     event.preventDefault();
     gallery.innerHTML = '';
     query = input.value;
@@ -46,6 +47,7 @@ function renderMoreImages() {
             });
         }, 500);
     });
+    console.log(page);
 }
 
 form.addEventListener('submit', renderImages);
