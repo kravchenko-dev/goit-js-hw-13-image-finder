@@ -47,7 +47,6 @@ function renderMoreImages() {
             });
         }, 500);
     });
-    console.log(page);
 }
 
 form.addEventListener('submit', renderImages);
